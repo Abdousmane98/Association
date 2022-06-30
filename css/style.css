@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=PT+Serif:ital@1&family=Work+Sans:ital,wght@1,200&display=swap');
+body{
+    background: url("fondecran.jpg");
+    font-family: 'Amiri', serif;
+    font-family: 'PT Serif', serif;
+
+}
+header{
+    background: rgb(236, 139, 12);
+    border-bottom: 5px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+header img{
+    border-radius:
+        10px 10px
+}
+header h1{
+    margin: 0 0 0 22px;
+}
+nav #navbar{
+    list-style-type: none;
+    display: flex;
+}
+nav #navbar li{
+    margin-right: 15px;
+}
+nav #navbar a{
+    font-size: 1.6em;
+    color: black;
+    padding: auto;
+
+}
+nav #navbar a:hover{
+    color: yellow;
+    border-bottom: 1px solid Red;
+}
+#banniere_image {
+    background: url("fond.jpg");
+    height: 200px;
+}
+#banniere_descrip{
+    position: absolute;
+    bottom: ;
+    font-size: 1.8em;
+    border-radius: 0 0 5px 5px;
+    width: 99%;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 5px;
+    color: black;
+}
+#button_rouge{
+    position: absolute;
+    right: 5px;
+    left: 5px;
+}
+section{
+    display: flex;
+    margin-bottom: 20px;
+}
+article,aside{
+    text-align: justify;
+}
+article h1{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+article img{
+    width: 40px;
+    height: 40px;
+}
+article{
+    margin-right: 20px;
+    flex: 3;
+}
+article p {
+    font-size: 1.2em;
+}
+aside{
+    position: relative;
+    flex: 1.2;
+    border-radius: 6px;
+    background-color: rgb(236, 139, 12);
+    padding: 30px;
+    box-shadow: 0px 2px 5px ;
+}
+#obj{
+    padding: 0;
+    text-align: center;
+    border: 2px solid rgb(255, 251, 0);
+    width: 80px;
+}
+aside img{
+    margin-right: 5px;
+    align-items: flex-end;
+}
+footer{
+    display: grid;
+    padding-top: 25px;
+    background: blanchedalmond;
+    background-repeat: repeat-y;
+
+}
+.media li{
+    display: inline-flex;
+    margin-right: 10px;
+
+}
+.media ul{
+    text-align: center;
+}
+footer h3{
+    margin-left: 20px;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+@media screen and (max-width: 491px){
+header {
+    width: 50%;
+}
+nav #navbar{
+    font-size: 0.8rem;
+
+}
+
+}
