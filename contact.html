@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='css/script.js'></script>
+</head>
+<body>
+    <header>
+        <div id="titre_principale">
+      <div id="logo">
+         <img src="image/ugmc.jpeg" alt="logo">
+         <h1>UGMC</h1>
+      </div>
+        </div>
+       <nav>
+           <div id="navbar">
+              
+               <li><a href="home.html"><i class="fa fa-fw fa-home"></i>Acceuil</a></li>
+               <li><a href="realisation.html"><i class="fa fa-fw fa-archive"></i>Realisations</a></li>
+              <li> <a href="membre.html"><i class="fa fa-fw fa-users"></i>Rejoignez nous!</a></li>
+             <li><a href="contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+           </div>
+       </nav>
+       </header>
+       <div id="contactus">
+        <h1>Contactez Nous</h1>
+        <p>Questions? Nous sommes toujours en ligne, et pres a vous aider.<br> Laisser nous un message a tout moment.</p>
+        <form methode="post" action="traitement.php">
+            <label for="Nom">Nom complet</label><br>
+            <input type="text" id="nom" name="nom" placeholder="Nom complet" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+            <label for="telephone">Telephone(optionnel)</label><br>
+            <input type="tel" id="numero" name="numero" placeholder="+00000"><br><br>
+            <textarea name='message' cols="47" rows="10" placeholder="Message"></textarea><br>
+            <button class="btn btn-primary" type="submit" value="submit">Envoyer</button>
+        </form>
+       </div>
+       <div class="adresse">
+       <p><strong>Adresse</strong><br>1500 av Nelson Mandela<br>N'djamena-Tchad</p>
+       <p><strong>Telephone</strong><br>(+235)66666666</p>
+       <p><strong>Courriel</strong><br>ugmc@gmail.com</p>
+       </div>
+       <footer>
+        <div class="media">
+           <h3>suivez nous</h3>
+           <ul>
+              <li> <a href="https:instagram.com/ugmc"><img src="image/instagram(3).png"></a></li>
+               <li>  <a href="https:instagram.com/ugmc"><img src="image/twitter(2).png"></a></li>
+                <li> <a href="https:instagram.com/ugmc"><img src="image/linkedin(1).png"></a></li>
+           </ul>
+        <p>copyrights 2022. Tous droits reserves<br>
+       Abdousmane98 </p>
+       </footer>
+</body>
+</html>

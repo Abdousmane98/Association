@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=PT+Serif:ital@1&family=Work+Sans:ital,wght@1,200&display=swap');
 body{
+    
     background: url("fondecran.jpg");
     font-family: 'Amiri', serif;
     font-family: 'PT Serif', serif;
-
 }
 header{
     background: rgb(236, 139, 12);
@@ -11,7 +11,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-
 }
 header img{
     border-radius:
@@ -43,7 +42,6 @@ nav #navbar a:hover{
 }
 #banniere_descrip{
     position: absolute;
-    bottom: ;
     font-size: 1.8em;
     border-radius: 0 0 5px 5px;
     width: 99%;
@@ -97,17 +95,57 @@ aside img{
     margin-right: 5px;
     align-items: flex-end;
 }
+.formulaire{
+    display: flex
+}
+#contactus h1,P{
+    text-align: center;
+}
+#contactus form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1PX solid gray;
+    border-radius: 1em;
+    box-shadow: 0px 2px 5px ;
+    background-color:  rgb(236, 139, 12);;
+}
+#contactus input{
+    border-radius: 10px;
+    color: brown;
+    width: 100%;
+}
+input,textarea{
+    width: 300px;
+    box-sizing: border-box;
+}
+textarea{
+    vertical-align: top;
+    width: auto;
+}
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+form button{
+    cursor: pointer;
+    width: 100%;
+}
+.adresse{
+    padding: 30px;
+    box-shadow: 0px 2px 5px ;
+}
+
 footer{
     display: grid;
     padding-top: 25px;
     background: blanchedalmond;
     background-repeat: repeat-y;
-
 }
 .media li{
     display: inline-flex;
     margin-right: 10px;
-
 }
 .media ul{
     text-align: center;
@@ -119,13 +157,16 @@ footer h3{
 footer p{
     text-align: center;
 }
-@media screen and (max-width: 491px){
+@media screen and (max-width: 480px){
 header {
     width: 50%;
+    align-items: center;
+    display: list-item;
 }
 nav #navbar{
     font-size: 0.8rem;
-
 }
 
+}
+@media and(max-width: 768px) {
 }
