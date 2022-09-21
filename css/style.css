@@ -149,7 +149,46 @@ footer{
 }
 .media ul{
     text-align: center;
+    
 }
+main{
+
+    text-align: center;
+}
+main .box-container{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+
+gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+main .box-container .box {
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+  }
+
+
+
+
+  .portfolio .box-container .box:hover .content {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  .portfolio .box-container .box img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  
+
+
+
 footer h3{
     margin-left: 20px;
     text-align: center;
@@ -157,16 +196,21 @@ footer h3{
 footer p{
     text-align: center;
 }
+
+
+@media and(max-width: 768px) {
+}
+
 @media screen and (max-width: 480px){
 header {
-    width: 50%;
+
     align-items: center;
     display: list-item;
 }
+    
+
 nav #navbar{
     font-size: 0.8rem;
 }
 
-}
-@media and(max-width: 768px) {
 }
