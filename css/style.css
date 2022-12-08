@@ -8,34 +8,34 @@ body{
 header{
     background: rgb(236, 139, 12);
     border-bottom: 5px solid white;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    
+    
 }
-header img{
-    border-radius:
-        10px 10px
+.navbar{
+height: 12%;
+display: flex;
+align-items: center;
 }
-header h1{
-    margin: 0 0 0 22px;
+.logo{
+margin-left: ;
 }
-nav #navbar{
-    list-style-type: none;
-    display: flex;
+nav{
+flex: 1;
+text-align: right;
 }
-nav #navbar li{
-    margin-right: 15px;
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-left: 60px;
+padding: 10px;
 }
-nav #navbar a{
-    font-size: 1.6em;
+nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
     color: black;
-    padding: auto;
+}
 
-}
-nav #navbar a:hover{
-    color: yellow;
-    border-bottom: 1px solid Red;
-}
+
 #banniere_image {
     background: url("fond.jpg");
     height: 200px;
